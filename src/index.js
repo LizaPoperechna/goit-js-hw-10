@@ -42,7 +42,7 @@ function onSearchCountry(e) {
             const searchList = searchResult
                 .map(({ flags, name }) => {
                     return `<li>
-                        <img src="${flags.svg}" alt="Flag of ${name.official}" width="50px">
+                        <img src="${flags.svg}" alt="Flag of ${name.official}" width="50px" height="30px">
                         <p> ${name.official}</p>
                     </li>`
                     })       
